@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="bg-gradient"></div>
 
-<header>
-  <h1>Your Name</h1>
-  <p>AI | Finance | Research | Writing</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">Your Name</a>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#writing">Writing</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <main>
+    <section class="hero container">
+      <div class="hero-text fade-up">
+        <p class="eyebrow">Student • Builder • Writer</p>
+        <h1>A stylish personal website for your ideas, work, and story.</h1>
+        <p class="lead">
+          I’m Your Name, and I’m interested in technology, research, design, and thoughtful writing.
+          This site is where I share what I’m building and what I’m learning.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View Projects</a>
+          <a href="about.html" class="btn btn-secondary">About Me</a>
+        </div>
+      </div>
 
-<section id="about">
-  <h2>About</h2>
-  <p>
-  Hi, I'm Your Name. I work on AI, finance, and public policy.
-  I'm interested in building systems that combine technology,
-  economics, and decision-making.
-  </p>
-</section>
+      <div class="hero-card fade-up delay-1">
+        <div class="glass-card">
+          <p class="card-label">Currently focused on</p>
+          <ul class="focus-list">
+            <li>Building technical projects</li>
+            <li>Writing thoughtful essays</li>
+            <li>Exploring AI, finance, and policy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<section id="projects">
-  <h2>Projects</h2>
+    <section class="container section fade-up delay-2">
+      <div class="section-heading">
+        <p class="section-kicker">Featured</p>
+        <h2>What this site is for</h2>
+      </div>
 
-  <div class="card">
-    <h3>Project One</h3>
-    <p>Short description of your project.</p>
-    <a href="#">GitHub</a>
-  </div>
+      <div class="grid-3">
+        <article class="card">
+          <h3>About</h3>
+          <p>Who I am, what I care about, and the path I’m on.</p>
+          <a href="about.html" class="text-link">Learn more →</a>
+        </article>
 
-  <div class="card">
-    <h3>Project Two</h3>
-    <p>Short description of your project.</p>
-    <a href="#">GitHub</a>
-  </div>
+        <article class="card">
+          <h3>Projects</h3>
+          <p>A collection of things I’ve built, studied, or explored.</p>
+          <a href="projects.html" class="text-link">See projects →</a>
+        </article>
 
-</section>
+        <article class="card">
+          <h3>Style</h3>
+          <p>A minimal design with glassmorphism, gradients, and clean typography.</p>
+          <span class="muted">Easy to customize</span>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<section id="writing">
-  <h2>Writing</h2>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Your Name</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:youremail@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
 
-  <ul>
-    <li><a href="#">Essay Title</a></li>
-    <li><a href="#">Research Note</a></li>
-    <li><a href="#">Blog Post</a></li>
-  </ul>
-
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>
-    <a href="#">LinkedIn</a> |
-    <a href="#">GitHub</a>
-  </p>
-</section>
-
-<footer>
-  <p>© 2026 Your Name</p>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
